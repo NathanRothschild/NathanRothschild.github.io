@@ -22,9 +22,8 @@ header a {
   margin-right: 20px;
   margin-left: 20px;
 }
-
 header .mobile {
-	display: none;
+  display: none;
 }
 header .logo a {
   background-image: url("images/HistoryThing.png");
@@ -37,26 +36,23 @@ header .logo a {
   top: -35px;
   width: 300px;
 }
-
-
-
 @media screen and (max-width: 680px) {
-	header {
-		height: 250px;
-		background-position: 0-30px;
-	}
-	header .mobile {
-		display: inline-block;
-	}
-	header .desktop {
-		display: none;
-	}
+  header {
+    height: 250px;
+    background-position: 0-30px;
+  }
+  header .mobile {
+    display: inline-block;
+  }
+  header .desktop {
+    display: none;
+  }
 }
-@media screen and (max-width: 500px){
-	header{
-		height: 200px;
-		background-position: 0 -0px;
-	}
+@media screen and (max-width: 500px) {
+  header {
+    height: 200px;
+    background-position: 0 -0px;
+  }
 }
 section {
   background: white;
@@ -83,5 +79,3 @@ footer {
   padding: 20px 20px;
   text-align: center;
 }
-
-
